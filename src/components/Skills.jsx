@@ -1,7 +1,7 @@
 function Skills() {
     return (
-        <div className="bg-[#5359B9] pt-[30px]">
-            <div className="w-full mx-auto max-w-6xl">
+        <div className="bg-[#5359B9] my-[30px]">
+            <div className="w-full mx-auto max-w-6xl p-5">
                 <div className="flex gap-[40px]">
                     <div>
                         <h2>About us & our work</h2>
@@ -26,6 +26,7 @@ function Skills() {
                         <div>Digital Marketing</div>
                         <div>Social-media Marketing</div>
                         <div>SEO</div>
+                        <div>design</div>
                     </div>
                 </div>
             </div>
