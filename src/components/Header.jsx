@@ -2,7 +2,7 @@ import tech from '../assets/images/tech-pic.svg';
 
 function Header() {
     return (
-        <header className="bg-[#FFFFFF]">
+        <header className="bg-[#FFFFFF] pb-[55px]">
             <div className="w-full mx-auto max-w-6xl">
                 <div className="flex flex-col pt-[10px] mx-[20px]">
                     <div className="flex flex-col py-8 justify-center items-center bg-[#FFD43A] w-16 h-10 mb-[45px] sm:mb-[85px] sm:w-20">
