@@ -1,9 +1,22 @@
 import project1 from '../assets/images/gym-pp.png';
+import { useInView } from 'react-intersection-observer';
 
 const Projects = () => {
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.1
+    });
+
     return (
         <div className="bg-[#F9F9F9] py-[20px] sm:py-[60px]">
-            <div className="w-full mx-auto max-w-6xl p-3">
+            <div
+                ref={ref}
+                className={`w-full mx-auto max-w-6xl p-3 transition-transform duration-1000 ease-in-out ${
+                    inView
+                        ? 'translate-y-0 opacity-100'
+                        : 'translate-y-20 opacity-0'
+                }`}
+            >
                 <div className="flex flex-col items-center sm:flex sm:flex-row sm:justify-between">
                     <div className="flex flex-col">
                         <h5 className="text-[#5359B9] font-bold text-sm pb-3 uppercase sm:text-lg sm:font-bold">
