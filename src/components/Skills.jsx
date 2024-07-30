@@ -7,7 +7,7 @@ function Skills() {
                         <h2 className="text-[#FFD43A] font-semibold text-lg pb-[15px]">
                             About us & our work
                         </h2>
-                        <h1 className="pb-[15px] text-white font-extrabold text-4xl">
+                        <h1 className="pb-[15px] text-white font-bold text-3xl">
                             Skills & Experience
                         </h1>
                         <p className="text-white font-medium pb-[25px]">

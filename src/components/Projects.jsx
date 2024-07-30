@@ -8,7 +8,7 @@ const Projects = () => {
     });
 
     return (
-        <div className="bg-[#F9F9F9] py-[20px] sm:py-[60px]">
+        <div className="flex flex-col items-center bg-[#F9F9F9] py-[20px] sm:pt-[80px]">
             <div
                 ref={ref}
                 className={`w-full mx-auto max-w-6xl p-3 transition-transform duration-1000 ease-in-out ${
@@ -73,7 +73,8 @@ const Projects = () => {
                         </div>
                         <div className="group flex gap-1 hover:text-[#5359B9]">
                             <a
-                                href="#"
+                                href="https://fittclubb.netlify.app/"
+                                target="_blank"
                                 className="uppercase text-black font-semibold hover:text-[#5359B9]"
                             >
                                 view live website
@@ -99,6 +100,11 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <a href="#">
+                <button className="border border-gray-200 w-[170px] h-[50px] text-black font-medium bg-inherit rounded-sm uppercase my-[30px] hover:bg-[#5359B9] hover:text-white sm:w-[170px] sm:h-[50px] sm:my-[90px]">
+                    view all projects
+                </button>
+            </a>
         </div>
     );
 };
