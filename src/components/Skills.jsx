@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 function Skills() {
     return (
         <div className="bg-[#5359B9] sm:py-[120px]">
