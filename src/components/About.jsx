@@ -58,7 +58,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="bg-white py-[60px] my-[30px]">
+                <div className="bg-white rounded-sm py-[60px] my-[30px]">
                     <div className="py-[10px] flex flex-col p-5">
                         <h5 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
                             Like what you see?
@@ -67,7 +67,7 @@ function About() {
                             Lets Work Together
                         </h1>
                     </div>
-                    <div className="flex flex-col gap-7 sm:gap-[210px] p-3 sm:flex sm:flex-row sm:p-7">
+                    <div className="relative flex flex-col gap-7 sm:gap-[210px] p-3 sm:flex sm:flex-row sm:p-7">
                         <p className="pl-2 text-gray-500 font-medium">
                             We are currently available for work, <br /> so if
                             you'd like to discuss any projects <br /> you can
@@ -75,7 +75,7 @@ function About() {
                             information.
                         </p>
                         <div className="flex flex-col gap-7">
-                            <div className="flex gap-5">
+                            <div className="flex items-center gap-5">
                                 <svg
                                     className="w-[27px] h-[27px] text-[#5359B9] dark:text-white"
                                     aria-hidden="true"
@@ -93,9 +93,11 @@ function About() {
                                         d="M21 8v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8m18 0-8.029-4.46a2 2 0 0 0-1.942 0L3 8m18 0-9 6.5L3 8"
                                     />
                                 </svg>
-                                <p>antonymurithi51@gmail.com</p>
+                                <a href="#">
+                                    <p>antonymurithi51@gmail.com</p>
+                                </a>
                             </div>
-                            <div className="flex gap-5">
+                            <div className="flex items-center gap-5">
                                 <svg
                                     className="w-[27px] h-[27px] text-[#5359B9]  dark:text-white"
                                     aria-hidden="true"
@@ -113,9 +115,11 @@ function About() {
                                         d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"
                                     />
                                 </svg>
-                                <p>+254 725 010 898</p>
+                                <a href="#">
+                                    <p>+254 725 010 898</p>
+                                </a>
                             </div>
-                            <div className="flex gap-5">
+                            <div className="flex items-center gap-5">
                                 <svg
                                     className="w-[27px] h-[27px] text-[#5359B9] dark:text-white"
                                     aria-hidden="true"
@@ -132,9 +136,9 @@ function About() {
                                     />
                                     <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                                 </svg>
-                                <p>Linked In</p>
+                                <a href="#">Linked In</a>
                             </div>
-                            <div className="flex gap-5">
+                            <div className="flex items-center gap-5">
                                 <svg
                                     className="w-[27px] h-[27px] text-[#5359B9] dark:text-white"
                                     aria-hidden="true"
@@ -150,7 +154,7 @@ function About() {
                                         clip-rule="evenodd"
                                     />
                                 </svg>
-                                <p>Github</p>
+                                <a href="#">Github</a>
                             </div>
                         </div>
                     </div>
