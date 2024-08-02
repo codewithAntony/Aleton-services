@@ -1,7 +1,7 @@
 function About() {
     return (
-        <div className="bg-[#FFD43A] py-[80px]">
-            <div className="w-full mx-auto p-3 max-w-6xl">
+        <div className="relative bg-[#FFD43A] py-[80px]">
+            <div className="absolute inset-0 w-full mx-auto p-3 max-w-6xl">
                 <div className="flex flex-col sm:flex-row sm:gap-[190px]">
                     <div className="w-full md:w-1/2 lg:w-2/3">
                         <h2 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
@@ -67,7 +67,7 @@ function About() {
                             Lets Work Together
                         </h1>
                     </div>
-                    <div className="relative flex flex-col gap-7 sm:gap-[210px] p-3 sm:flex sm:flex-row sm:p-7">
+                    <div className="flex flex-col gap-7 sm:gap-[210px] p-3 sm:flex sm:flex-row sm:p-7">
                         <p className="pl-2 text-gray-500 font-medium">
                             We are currently available for work, <br /> so if
                             you'd like to discuss any projects <br /> you can
@@ -157,6 +157,14 @@ function About() {
                                 <a href="#">Github</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="bg-[#3C394A]">
+                    <div>
+                        <span>Skills</span>
+                        <span>Projects</span>
+                        <span>About Me</span>
+                        <span>Contact me</span>
                     </div>
                 </div>
             </div>
