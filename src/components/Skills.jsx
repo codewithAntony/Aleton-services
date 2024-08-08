@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <div className="bg-[#5359B9] sm:py-[120px]">
+        <div className="bg-[#5359B9] sm:py-[120px]" id="skills">
             <div className="w-full mx-auto max-w-6xl p-5">
                 <div className="flex flex-col gap-[30px] items-center justify-center sm:flex-row sm:gap-[190px]">
                     <div className="w-full md:w-1/2 lg:w-2/3">

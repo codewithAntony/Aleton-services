@@ -8,7 +8,10 @@ const Projects = () => {
     });
 
     return (
-        <div className="flex flex-col items-center bg-[#F9F9F9] py-[20px] sm:pt-[80px]">
+        <div
+            className="flex flex-col items-center bg-[#F9F9F9] py-[20px] sm:pt-[80px]"
+            id="projects"
+        >
             <div
                 ref={ref}
                 className={`w-full mx-auto max-w-6xl p-3 transition-transform duration-1000 ease-in-out ${

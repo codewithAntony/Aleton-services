@@ -1,7 +1,7 @@
 function About() {
     return (
-        <div className="relative bg-[#FFD43A] py-[80px]">
-            <div className="absolute inset-0 w-full mx-auto p-3 max-w-6xl">
+        <div className="bg-[#FFD43A] py-[20px] sm:py-[40px]">
+            <div className="w-full mx-auto p-3 max-w-6xl" id="about">
                 <div className="flex flex-col sm:flex-row sm:gap-[190px]">
                     <div className="w-full md:w-1/2 lg:w-2/3">
                         <h2 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
@@ -58,9 +58,12 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="bg-white rounded-sm py-[60px] my-[30px]">
+                <div
+                    className="bg-white rounded-sm py-[60px] my-[30px]"
+                    id="contact"
+                >
                     <div className="py-[10px] flex flex-col p-5">
-                        <h5 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
+                        <h5 className="text-[#727278] font-semibold text-lg pb-[15px]">
                             Like what you see?
                         </h5>
                         <h1 className="pb-[15px] text-black font-bold text-3xl">
@@ -94,7 +97,9 @@ function About() {
                                     />
                                 </svg>
                                 <a href="#">
-                                    <p>antonymurithi51@gmail.com</p>
+                                    <p className="font-semibold">
+                                        antonymurithi51@gmail.com
+                                    </p>
                                 </a>
                             </div>
                             <div className="flex items-center gap-5">
@@ -116,7 +121,9 @@ function About() {
                                     />
                                 </svg>
                                 <a href="#">
-                                    <p>+254 725 010 898</p>
+                                    <p className="font-semibold">
+                                        +254 725 010 898
+                                    </p>
                                 </a>
                             </div>
                             <div className="flex items-center gap-5">
@@ -136,7 +143,9 @@ function About() {
                                     />
                                     <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                                 </svg>
-                                <a href="#">Linked In</a>
+                                <a href="#" className="font-semibold">
+                                    Linked In
+                                </a>
                             </div>
                             <div className="flex items-center gap-5">
                                 <svg
@@ -154,17 +163,11 @@ function About() {
                                         clip-rule="evenodd"
                                     />
                                 </svg>
-                                <a href="#">Github</a>
+                                <a href="#" className="font-semibold">
+                                    Github
+                                </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="bg-[#3C394A]">
-                    <div>
-                        <span>Skills</span>
-                        <span>Projects</span>
-                        <span>About Me</span>
-                        <span>Contact me</span>
                     </div>
                 </div>
             </div>
