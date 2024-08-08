@@ -5,7 +5,7 @@ function Header() {
         <header className="bg-[#FFFFFF] pb-[55px]">
             <div className="w-full mx-auto max-w-6xl">
                 <div className="flex flex-col pt-[10px] mx-[20px]">
-                    <div className="flex flex-col py-8 justify-center items-center bg-[#FFD43A] w-16 h-10 mb-[45px] sm:mb-[85px] sm:w-20">
+                    <div className="flex flex-col py-8 justify-center items-center bg-[#FFD43A] w-16 h-10 mb-[45px] cursor-pointer sm:mb-[85px] sm:w-20">
                         <span className="text-center text-[#5359B9] font-bold">
                             AleTon
                         </span>
@@ -26,6 +26,11 @@ function Header() {
                                 business results. <br /> We specialize in
                                 crafting websites that are visually appealing,
                                 user-friendly, and optimizes for conversion.
+                                <br />
+                                For your digital marketing services, we will
+                                help you run your Social Media pages, so as to
+                                attract clients, leading to increased sales for
+                                your products.
                             </p>
                         </div>
                         <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3">

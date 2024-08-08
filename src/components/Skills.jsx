@@ -26,27 +26,27 @@ function Skills() {
                     <div className="flex flex-col">
                         <div className="flex mb-5 gap-[40px]">
                             <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
-                                React
+                                Web Development
                             </div>
                             <div className="flex text-center justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
-                                Laravel
+                                Website Design
                             </div>
                         </div>
 
                         <div className="flex mb-5 gap-[40px]">
                             <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
-                                Django
+                                SEO
                             </div>
                             <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
-                                Redux
+                                Digital Marketing
                             </div>
                         </div>
                         <div className="flex mb-5 gap-[40px]">
                             <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
-                                Sass
+                                Social Media Marketing
                             </div>
                             <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
-                                Typescript
+                                Mobile App Development
                             </div>
                         </div>
                     </div>
