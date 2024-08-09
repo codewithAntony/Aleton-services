@@ -1,4 +1,30 @@
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
 function About() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                'service_qyc44l4',
+                'template_asqnbtl',
+                form.current,
+                'duB79MBqZ7xjr5Cq9'
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    alert('Email sent Successfully!');
+                },
+                (error) => {
+                    console.log(error.text);
+                    alert('An error occurred, please try again');
+                }
+            );
+    };
     return (
         <div className="bg-[#FFD43A] py-[20px] sm:py-[40px]">
             <div className="w-full mx-auto p-3 max-w-6xl" id="about">
@@ -12,8 +38,8 @@ function About() {
                         </h1>
                     </div>
                 </div>
-                <div className="flex flex-col py-8  sm:flex sm:flex-row sm:gap-[40px]">
-                    <div className="border border-black w-[320px] h-[200px] mb-[30px] p-5 hover:bg-white sm:w-[500px] sm:h-[230px] sm:p-10">
+                <div className="flex flex-col py-8 sm:flex sm:flex-row sm:gap-[40px]">
+                    <div className="flex flex-col justify-center border border-black w-[320px] h-[200px] mb-[30px] p-5 hover:bg-white sm:w-[500px] sm:h-[280px] sm:p-10">
                         <svg
                             className="w-6 h-6 text-gray-800 dark:text-white"
                             aria-hidden="true"
@@ -30,12 +56,13 @@ function About() {
                             />
                         </svg>
                         <p className="py-3">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Quam beatae ratione voluptatibus consectetur
-                            numquam voluptatum! Ut atque quisquam sint illum?
+                            Our mission as Software Engineers is to deliver
+                            elegant and efficient solutions that translate Good
+                            Design into Good Business and even better user
+                            experiences.
                         </p>
                     </div>
-                    <div className="border border-black w-[320px] h-[200px] p-5 sm:w-[500px] sm:h-[230px] sm:p-10 hover:bg-white">
+                    <div className="flex flex-col justify-center border border-black w-[320px] h-[200px] p-5 sm:w-[500px] sm:h-[280px] sm:p-10 hover:bg-white">
                         <svg
                             className="w-6 h-6 text-gray-800 dark:text-white"
                             aria-hidden="true"
@@ -52,9 +79,12 @@ function About() {
                             />
                         </svg>
                         <p className="py-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Eos doloremque amet vel officiis libero autem
-                            repudiandae sit totam aperiam error.
+                            With our experience in running Social Media
+                            Accounts, we will sure help you manage your social
+                            apps, it could be your Facebook, Instagram, Tiktok
+                            or any other app. We can help you grow your accounts
+                            or push your products to the target audience and
+                            increase your reach to potential clients.
                         </p>
                     </div>
                 </div>
@@ -63,7 +93,7 @@ function About() {
                     id="contact"
                 >
                     <div className="py-[10px] flex flex-col p-5">
-                        <h5 className="text-[#727278] font-semibold text-lg pb-[15px]">
+                        <h5 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
                             Like what you see?
                         </h5>
                         <h1 className="pb-[15px] text-black font-bold text-3xl">
@@ -96,7 +126,7 @@ function About() {
                                         d="M21 8v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8m18 0-8.029-4.46a2 2 0 0 0-1.942 0L3 8m18 0-9 6.5L3 8"
                                     />
                                 </svg>
-                                <a href="#">
+                                <a ref={form} onSubmit={sendEmail}>
                                     <p className="font-semibold">
                                         antonymurithi51@gmail.com
                                     </p>
@@ -143,7 +173,11 @@ function About() {
                                     />
                                     <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                                 </svg>
-                                <a href="#" className="font-semibold">
+                                <a
+                                    href="https://www.linkedin.com/in/antony-murithi-namu/"
+                                    target="_blank"
+                                    className="font-semibold"
+                                >
                                     Linked In
                                 </a>
                             </div>
@@ -163,7 +197,11 @@ function About() {
                                         clip-rule="evenodd"
                                     />
                                 </svg>
-                                <a href="#" className="font-semibold">
+                                <a
+                                    href="https://github.com/codewithAntony"
+                                    target="_blank"
+                                    className="font-semibold"
+                                >
                                     Github
                                 </a>
                             </div>
