@@ -25,7 +25,7 @@ function Skills() {
                     </div>
                     <div className="flex flex-col">
                         <div className="flex mb-5 gap-[40px]">
-                            <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
+                            <div className="flex text-center justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
                                 Web Development
                             </div>
                             <div className="flex text-center justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
@@ -34,18 +34,18 @@ function Skills() {
                         </div>
 
                         <div className="flex mb-5 gap-[40px]">
-                            <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
+                            <div className="flex justify-center text-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
                                 SEO
                             </div>
-                            <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
+                            <div className="flex justify-center text-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
                                 Digital Marketing
                             </div>
                         </div>
                         <div className="flex mb-5 gap-[40px]">
-                            <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
+                            <div className="flex justify-center text-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
                                 Social Media Marketing
                             </div>
-                            <div className="flex justify-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
+                            <div className="flex justify-center text-center items-center w-[130px] bg-white h-[55px] rounded-sm text-black font-bold cursor-pointer sm:w-[280px] sm:h-[100px]">
                                 Mobile App Development
                             </div>
                         </div>
