@@ -11,6 +11,43 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?47536';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+      "enabled": true,
+      "chatButtonSetting": {
+        "backgroundColor": "#00e785",
+        "ctaText": "Chat with us",
+        "borderRadius": "25",
+        "marginLeft": "0",
+        "marginRight": "20",
+        "marginBottom": "20",
+        "ctaIconWATI": false,
+        "position": "right"
+      },
+      "brandSetting": {
+        "brandName": "AleTon Services",
+        "brandSubTitle": "undefined",
+        "brandImg": "https://www.canva.com/design/DAGPtyfA4zw/B4EQJbH2_2Mz8HqqWOJbrA/view?utm_content=DAGPtyfA4zw&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        "welcomeText": "Hi there!\nHow can I help you?",
+        "messageText": "Hello, %0A I have some questions about  Aleton Services. How can you help?",
+        "backgroundColor": "#00e785",
+        "ctaText": "Chat with us",
+        "borderRadius": "25",
+        "autoShow": false,
+        "phoneNumber": "254725010898"
+      }
+    };
+    s.onload = function () {
+      CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  </script>
 </body>
 
 </html>
