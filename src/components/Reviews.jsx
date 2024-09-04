@@ -11,7 +11,7 @@ function Reviews() {
                     <h5 className="text-[#5359B9] font-bold text-sm pb-3 uppercase sm:text-5xl sm:font-bold sm:pb-7">
                         Reviews
                     </h5>
-                    <div className="flex flex-col pb-7 sm:flex sm:flex-row sm:gap-6">
+                    <div className="flex flex-col my-10 sm:grid sm:grid-cols-2 sm:gap-6">
                         <article>
                             <div className="flex items-center mb-4">
                                 <img
@@ -245,8 +245,6 @@ function Reviews() {
                                 </div>
                             </aside>
                         </article>
-                    </div>
-                    <div className="flex flex-col pb-7 sm:flex sm:flex-row sm:gap-6">
                         <article>
                             <div className="flex items-center mb-4">
                                 <img
