@@ -39,7 +39,7 @@ function About() {
                     </div>
                 </div>
                 <div className="flex flex-col py-8 sm:flex sm:flex-row sm:gap-[40px]">
-                    <div className="flex flex-col justify-center border border-black w-[320px] h-[200px] mb-[30px] p-5 hover:bg-white sm:w-[500px] sm:h-[280px] sm:p-10">
+                    <div className="flex flex-col justify-center border border-black w-[320px] h-[330px] mb-[30px] p-5 hover:bg-white sm:w-[600px] sm:h-[280px] sm:p-10">
                         <svg
                             className="w-6 h-6 text-gray-800 dark:text-white"
                             aria-hidden="true"
@@ -62,7 +62,7 @@ function About() {
                             experiences.
                         </p>
                     </div>
-                    <div className="flex flex-col justify-center border border-black w-[320px] h-[200px] p-5 sm:w-[500px] sm:h-[280px] sm:p-10 hover:bg-white">
+                    <div className="flex flex-col justify-center border border-black w-[320px] h-[330px] p-5 sm:w-[600px] sm:h-[280px] sm:p-10 hover:bg-white">
                         <svg
                             className="w-6 h-6 text-gray-800 dark:text-white"
                             aria-hidden="true"
@@ -82,9 +82,11 @@ function About() {
                             With our experience in running Social Media
                             Accounts, we will sure help you manage your social
                             apps, it could be your Facebook, Instagram, Tiktok
-                            or any other app. We can help you grow your accounts
-                            or push your products to the target audience and
-                            increase your reach to potential clients.
+                            or any other social media app.
+                            <br />
+                            We can help you grow your accounts or push your
+                            products to the target audience and increase your
+                            reach to potential clients.
                         </p>
                     </div>
                 </div>
@@ -92,21 +94,23 @@ function About() {
                     className="bg-white rounded-sm py-[60px] my-[30px]"
                     id="contact"
                 >
-                    <div className="py-[10px] flex flex-col p-5">
-                        <h5 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
-                            Like what you see?
-                        </h5>
-                        <h1 className="pb-[15px] text-black font-bold text-3xl">
-                            Lets Work Together
-                        </h1>
-                    </div>
-                    <div className="flex flex-col gap-7 sm:gap-[210px] p-3 sm:flex sm:flex-row sm:p-7">
-                        <p className="pl-2 text-gray-500 font-medium">
-                            We are currently available for work, <br /> so if
-                            you'd like to discuss any projects <br /> you can
-                            reach us through any of the <br /> available contact
-                            information.
-                        </p>
+                    <div className="py-[10px] flex flex-col p-5"></div>
+                    <div className="flex flex-col gap-7 justify-evenly p-3 sm:flex sm:flex-row sm:p-7">
+                        <div className="flex flex-col">
+                            <h5 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
+                                Like what you see?
+                            </h5>
+                            <h1 className="pb-[15px] text-black font-bold text-3xl">
+                                Lets Work Together
+                            </h1>
+                            <p className="text-gray-500 font-medium">
+                                We are currently available for work, <br /> so
+                                if you'd like to discuss any projects <br /> you
+                                can reach us through any of the <br /> available
+                                contact information.
+                            </p>
+                        </div>
+
                         <div className="flex flex-col gap-7">
                             <div className="flex items-center gap-5">
                                 <svg
