@@ -94,8 +94,7 @@ function About() {
                     className="bg-white rounded-sm py-[60px] my-[30px]"
                     id="contact"
                 >
-                    <div className="py-[10px] flex flex-col p-5"></div>
-                    <div className="flex flex-col gap-7 justify-evenly p-3 sm:flex sm:flex-row sm:p-7">
+                    <div className="flex flex-col items-center gap-7 justify-evenly p-3 sm:flex sm:flex-row sm:p-7">
                         <div className="flex flex-col">
                             <h5 className="text-[#5359B9] font-semibold text-lg pb-[15px]">
                                 Like what you see?
