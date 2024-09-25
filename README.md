@@ -2,3 +2,4 @@ This is Aleton Services official website that shows what we are about, and all t
 The project is completed using react js and tailwindcss
 check it out.
 The stack used is react with tailwindcss for styling.
+And Laravel for backend.
