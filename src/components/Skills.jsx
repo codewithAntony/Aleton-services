@@ -2,7 +2,7 @@ function Skills() {
     return (
         <div className="bg-[#5359B9] sm:py-[70px]" id="skills">
             <div className="w-full mx-auto max-w-6xl p-5">
-                <div className="flex flex-col gap-[30px] items-center justify-center sm:flex-row sm:gap-[190px]">
+                <div className="flex flex-col gap-[30px] mx-[20px] items-center justify-center md:flex-col lg:flex-row ">
                     <div className="w-full md:w-1/2 lg:w-2/3">
                         <h2 className="text-[#FFD43A] font-semibold text-lg pb-[15px]">
                             About us & our work

@@ -41,8 +41,8 @@ const Projects = () => {
                         </button>
                     </a>
                 </div>
-                <div className="flex flex-col bg-[#FFFFFF] justify-between px-3 py-[20px] sm:flex sm:flex-row sm:justify-between sm:px-[90px] sm:py-[75px]">
-                    <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 cursor-pointer">
+                <div className="flex flex-col bg-[#FFFFFF] justify-between px-3 py-[20px] md:flex md:flex-row sm:justify-between sm:px-[90px] sm:py-[75px]">
+                    <div className="w-full md:w-1/2 lg:w-1/3 cursor-pointer">
                         <img
                             src={project1}
                             alt="Gym project website"
@@ -118,8 +118,8 @@ const Projects = () => {
                         : 'translate-y-20 opacity-0'
                 }`}
             >
-                <div className="flex flex-col bg-[#FFFFFF] justify-between px-3 py-[20px] sm:flex sm:flex-row sm:justify-between sm:px-[90px] sm:py-[75px]">
-                    <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 cursor-pointer">
+                <div className="flex flex-col bg-[#FFFFFF] justify-between px-3 py-[20px] md:flex md:flex-row sm:justify-between sm:px-[90px] sm:py-[75px]">
+                    <div className="w-full md:w-1/2 lg:w-1/3 cursor-pointer">
                         <img
                             src={project2}
                             alt="Evergreen Dental Care"
@@ -203,8 +203,8 @@ const Projects = () => {
                         : 'translate-y-20 opacity-0'
                 }`}
             >
-                <div className="flex flex-col bg-[#FFFFFF] justify-between px-3 py-[20px] sm:flex sm:flex-row sm:justify-between sm:px-[90px] sm:py-[75px]">
-                    <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 cursor-pointer">
+                <div className="flex flex-col bg-[#FFFFFF] justify-between px-3 py-[20px] md:flex md:flex-row sm:justify-between sm:px-[90px] sm:py-[75px]">
+                    <div className="w-full md:w-1/2 lg:w-1/3 cursor-pointer">
                         <img
                             src={project3}
                             alt="Loruki"

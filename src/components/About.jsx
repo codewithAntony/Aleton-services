@@ -45,8 +45,8 @@ function About() {
                         </h1>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center py-8 sm:flex sm:flex-row sm:gap-[40px]">
-                    <div className="flex flex-col justify-center border border-black w-[320px] h-[330px] mb-[30px] p-5 hover:bg-white sm:w-[600px] sm:h-[280px] sm:p-10">
+                <div className="flex flex-col justify-center gap-10 items-center py-8 sm:flex sm:flex-row sm:gap-[40px]">
+                    <div className="flex flex-col justify-center border border-black w-[320px] h-[330px]  p-5 hover:bg-white md:w-[600px] md:h-[280px] md:p-10">
                         <svg
                             className="w-6 h-6 text-gray-800 dark:text-white"
                             aria-hidden="true"
@@ -69,7 +69,7 @@ function About() {
                             experiences.
                         </p>
                     </div>
-                    <div className="flex flex-col justify-center border border-black w-[320px] h-[330px] p-5 sm:w-[600px] sm:h-[280px] sm:p-10 hover:bg-white">
+                    <div className="flex flex-col justify-center border border-black w-[320px] h-[330px] p-5 md:w-[600px] md:h-[280px] md:p-10 hover:bg-white">
                         <svg
                             className="w-6 h-6 text-gray-800 dark:text-white"
                             aria-hidden="true"
