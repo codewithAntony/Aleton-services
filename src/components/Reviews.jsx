@@ -76,12 +76,12 @@ function Reviews() {
                                     <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                                 </svg>
                                 <h3 className="ms-2 text-sm font-semibold text-gray-900 dark:text-white">
-                                    Best decison to work with them
+                                    Best decison to work with him
                                 </h3>
                             </div>
                             <footer className="mb-5 text-sm text-gray-500 dark:text-gray-400">
                                 <p>
-                                    Reviewed in the United Kingdom, Kenya on{' '}
+                                    Reviewed in the United Kingdom on{' '}
                                     <time dateTime="2017-03-03 19:00">
                                         Aug 3, 2024
                                     </time>
@@ -89,18 +89,16 @@ function Reviews() {
                             </footer>
                             <p className="mb-2 text-gray-500 dark:text-gray-400">
                                 It is a distinct pleasure for me to recommend
-                                Aleton Services to any and all interested
-                                parties. They have been professional,
-                                comprehensive and competent throughout the
-                                process of our working together. We feel that we
-                                have established a relationship with them for
-                                years to come.
+                                Antony to any and all interested parties. He has
+                                been professional, comprehensive and competent
+                                throughout the process of our working together.
+                                I feel that we have established a relationship
+                                with him for years to come.
                             </p>
                             <p className="mb-3 text-gray-500 dark:text-gray-400">
-                                The reaction to our new web site has been
+                                The reaction to our new website has been
                                 overwhelmingly positive; as one commented the
-                                site is “FANTASTIC.” The same can be said for
-                                our view of Aleton Services work for us.
+                                site is “FANTASTIC.” .
                             </p>
                             <a
                                 href="#"
