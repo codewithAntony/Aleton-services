@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    options: {
+        safelist: [/^fa/, /^fas/, /^fab/]
+    },
     theme: {
         screens: {
             sm: '640px',

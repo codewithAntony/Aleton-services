@@ -76,7 +76,7 @@ function Header() {
                                     meaningful business results. <br />
                                 </p> */}
                             </div>
-                            <div className=" w-full md:w-1/2 lg:w-1/3">
+                            <div className="w-full md:w-1/2 lg:w-1/3">
                                 <img
                                     src={profile}
                                     className="max-w-full h-auto object-cover rounded-lg md:w-1/2 lg:w-full"
