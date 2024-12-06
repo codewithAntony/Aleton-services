@@ -8,7 +8,7 @@ function Reviews() {
         <div className="bg-[#F9F9F9] py-[20px] sm:pt-[80px]">
             <div className="w-full mx-auto px-5  max-w-6xl">
                 <div className="flex flex-col justify-center items-center">
-                    <h5 className="text-[#5359B9] font-bold text-sm pb-3 uppercase sm:text-5xl sm:font-bold sm:pb-7">
+                    <h5 className="text-[#5359B9] font-bold text-xl pb-3 uppercase sm:text-5xl sm:font-bold sm:pb-7">
                         Reviews
                     </h5>
                     <div className="flex flex-col my-10 sm:grid sm:grid-cols-2 sm:gap-6">
@@ -190,7 +190,7 @@ function Reviews() {
                                     <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                                 </svg>
                                 <h3 className="ms-2 text-sm font-semibold text-gray-900 dark:text-white">
-                                    Try them for great services
+                                    Try him for great services
                                 </h3>
                             </div>
                             <footer className="mb-5 text-sm text-gray-500 dark:text-gray-400">
@@ -202,9 +202,9 @@ function Reviews() {
                                 </p>
                             </footer>
                             <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                With Aleton Services help, we were able to
-                                increase the functionality of our website
-                                dramatically while cutting our costs.{' '}
+                                With Antony's help, we were able to increase the
+                                functionality of our website dramatically while
+                                cutting our costs.{' '}
                                 <a
                                     href="https://evergreendentalcareltd.netlify.app/"
                                     className="text-slate-800 underline"
@@ -214,7 +214,7 @@ function Reviews() {
                                 is much more easy to use, has tons of more
                                 features than before and is incredibly easy to
                                 maintain. We could not be more happy with our
-                                new website! Thanks Aleton!
+                                new website! Thanks Antony!
                             </p>
 
                             <a
@@ -316,10 +316,10 @@ function Reviews() {
                                 </p>
                             </footer>
                             <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                Since having our new website built by Aleton
-                                Services, we have seen a 200% increase in the
-                                number of online contact forms being filled out
-                                and returned to us.
+                                Since having our new website built by Antony ,
+                                we have seen a 200% increase in the number of
+                                online contact forms being filled out and
+                                returned to us.
                             </p>
                             <p className="mb-3 text-gray-500 dark:text-gray-400">
                                 Antony and his team worked closely with us to
@@ -428,20 +428,20 @@ function Reviews() {
                                 </p>
                             </footer>
                             <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                We have been working with Aleton Services for
-                                over 3 years. I would like to thank all of the
-                                team for the hard work over the years, they have
-                                always responded quickly by solving any issue
-                                that our company have had.
+                                We have been working with Antony for over 3
+                                years. I would like to thank him for the hard
+                                work over the years, he has always responded
+                                quickly by solving any issue that our company
+                                have had.
                             </p>
                             <p className="mb-3 text-gray-500 dark:text-gray-400">
                                 Such as implementing new projects, software,
                                 updates, quickly and effectively, and many other
                                 issues even general enquiries that we may have
-                                had. I would just like to thank Aleton Services
-                                for all their hard work over the years and keep
-                                up the excellent work. Atlantia UK Ltd can only
-                                give a 5 * + to this company.
+                                had. I would just like to thank Antony for all
+                                his hard work over the years and keep up the
+                                excellent work. Atlantia UK Ltd can only give a
+                                5 * + to this company.
                             </p>
                             <a
                                 href="#"

@@ -84,12 +84,12 @@ const Projects = () => {
                             <a
                                 href="https://fittclubb.netlify.app/"
                                 target="_blank"
-                                className="uppercase text-black font-semibold hover:text-[#5359B9]"
+                                className="uppercase text-black font-semibold group-hover:text-[#5359B9]"
                             >
                                 view live website
                             </a>
                             <svg
-                                className="hidden w-6 h-6 text-black hover:text-[#5359B9] group-hover:block"
+                                className="hidden w-6 h-6 text-black group-hover:text-[#5359B9] group-hover:block"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -170,12 +170,12 @@ const Projects = () => {
                             <a
                                 href="https://evergreendentalcareltd.netlify.app/"
                                 target="_blank"
-                                className="uppercase text-black font-semibold hover:text-[#5359B9]"
+                                className="uppercase text-black font-semibold group-hover:text-[#5359B9]"
                             >
                                 view live website
                             </a>
                             <svg
-                                className="hidden w-6 h-6 text-black hover:text-[#5359B9] group-hover:block"
+                                className="hidden w-6 h-6 text-black group-hover:text-[#5359B9] group-hover:block"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -242,12 +242,12 @@ const Projects = () => {
                             <a
                                 href="https://lorukiwebin.netlify.app/"
                                 target="_blank"
-                                className="uppercase text-black font-semibold hover:text-[#5359B9]"
+                                className="uppercase text-black font-semibold group-hover:text-[#5359B9]"
                             >
                                 view live website
                             </a>
                             <svg
-                                className="hidden w-6 h-6 text-black hover:text-[#5359B9] group-hover:block"
+                                className="hidden w-6 h-6 text-black group-hover:text-[#5359B9] group-hover:block"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
