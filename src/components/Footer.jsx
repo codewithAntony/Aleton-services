@@ -23,7 +23,7 @@ const Footer = () => {
         };
     }, []);
     return (
-        <div className="bg-[#3C394A] py-[30px] sm:py-[60px]">
+        <div className="bg-[#3C394A] h-auto py-[30px] sm:py-[60px]">
             <div
                 className={`bottom-0 left-0 right-0 transform ${
                     showFooter ? 'translate-y-0' : 'translate-y-full'
